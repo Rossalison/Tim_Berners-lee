@@ -1,0 +1,78 @@
+body{
+    margin:0;
+    padding-top: 800px;
+    text-align:center;
+}
+.profile{
+    border-radius: 50%;
+}
+#welcome{
+    position:absolute;
+    bottom: 0;
+    background: linear-gradient(#60ebeb 0%,#27ae60 100%);
+    display:table;
+    width:100%;
+    height: 100%;
+}
+h1{
+    font-size: 40;
+    font-weight: 300;
+    font-family:fantasy;
+}
+#name{
+    font-size: 100px;
+    font-family: 'Luxurious Script',cursive;
+}
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: monospace;
+}
+#bio{
+font-family: cursive;
+padding:50;
+font-size:25px;
+}
+.line{
+    background-color: black;
+    width: 70px;
+    margin:8px auto;
+}
+.parallax-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.menu{
+    list-style: none;
+    position:fixed;
+    top:0px;
+    z-index: 10;
+    cursor: pointer;
+    margin-top:0px;
+    background-color: rgb(207, 207, 207);
+    float: center;
+}
+.links{
+    padding-top: 5px;
+    padding-left: 33px;
+    padding-right: 25px;
+    padding-bottom:5px;
+    font-family: fantasy;
+    font-size:20px;
+    display:inline;
+    float: center;
+}
+a{
+    text-decoration:none;
+}
+.links:hover{
+    font-size:25px;
+    text-decoration: underline;
+}
+#writings a{
+    text-decoration: underline !important;
+    color:thistle !important;
+}
+.contact_1 h3{
+    display:inline;
+}
